@@ -1,7 +1,7 @@
 # wordpress-image
 [![Docker Pulls](https://img.shields.io/docker/pulls/charlessortlist/wordpress-image?style=flat-square)](https://hub.docker.com/repository/docker/charlessortlist/wordpress-image)
 
-Bitnami wordpress image builder with Datadog PHP APM + ASM + Profiling (Beta)
+Bitnami wordpress image builder with Datadog PHP APM + ASM + Profiling (Beta).
 
 Consider setting `DD_AGENT_HOST` to indicate the DataDog agent on your cluster
 and `DD_SERVICE` to assign an appropriate name to the service. Refer to
