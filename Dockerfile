@@ -8,7 +8,7 @@ RUN install_packages vim curl strace htop
 
 ## Install 'datadog'
 RUN curl -LO https://github.com/DataDog/dd-trace-php/releases/latest/download/datadog-setup.php
-RUN php datadog-setup.php --php-bin=all --enable-profiling
+RUN php datadog-setup.php --php-bin=all --enable-appsec --enable-profiling
 RUN rm datadog-setup.php
 
 # Wordpress with a lot of plugins.. More fine-tuning.
