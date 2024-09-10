@@ -1,4 +1,4 @@
-FROM bitnami/wordpress
+FROM bitnami/wordpress:6
 
 ## Change user to perform privileged actions
 USER 0
